@@ -1,0 +1,8 @@
+<?php
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+include_once(get_template_directory() . '/includes/enqueue.php');
+include_once(get_template_directory() . '/includes/venue_kirki_customizer.php');
