@@ -6,3 +6,4 @@ if (!defined('ABSPATH')) {
 
 include_once(get_template_directory() . '/includes/enqueue.php');
 include_once(get_template_directory() . '/includes/venue_kirki_customizer.php');
+include_once(get_template_directory() . '/includes/theme_functionality.php');

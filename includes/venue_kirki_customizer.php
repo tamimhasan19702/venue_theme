@@ -35,7 +35,7 @@ function kirki_section_venue()
                 'label' => esc_html__('Venue Logo', 'venue'),
                 'description' => esc_html__('The saved value will be the URL.', 'venue'),
                 'section' => 'kirki-section-venue-header',
-                'default' => '',
+                'default' => get_template_directory_uri() . '/img/logo.png',
             ]
         );
     }
