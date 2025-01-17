@@ -1,7 +1,8 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
+
+            <!-- <div class="col-md-5">
                 <div class="about-veno">
                     <div class="logo">
                         <a href="index.html">
@@ -21,7 +22,14 @@
                         </li>
                     </ul>
                 </div>
+            </div> -->
+
+            <div class="col-md-5">
+
+                <?php dynamic_sidebar('footer_widget_1'); ?>
             </div>
+
+
             <div class="col-md-4">
                 <div class="useful-links">
                     <div class="footer-heading">

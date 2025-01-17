@@ -25,7 +25,7 @@ $venuLogo = get_theme_mod('venue_logo', get_template_directory_uri() . '/img/log
         <div class="container">
             <div class="row">
                 <div class="col-md-12 flex justify-between">
-                    <button id="primary-nav-button" type="button">Menu</button>
+                    <button id="primary-nav-button" type="button"><?php _e('Menu', 'venue'); ?></button>
 
                     <!-- venu logo -->
                     <?php if (!empty($venuLogo)): ?>
