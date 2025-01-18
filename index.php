@@ -485,7 +485,7 @@
         </div>
     </div>
     <video autoplay="" loop="" muted>
-        <source src="highway-loop.mp4" type="video/mp4" />
+        <source src="<?php echo get_template_directory_uri() ?>  /highway-loop.mp4" type="video/mp4" />
     </video>
 </section>
 
